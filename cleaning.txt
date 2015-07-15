@@ -58,3 +58,26 @@ in the file after the first occurence of the string "01/01/2010". Not that this
 will remove the headers of the file, but we'll be able to fix that later. The second
 part of the file prints out the size of our now smaller data file. The data might 
 not be big anymore but it's still valuable.
+
+# Losing A Limb
+
+If you were fairly observant when viewng the output of the `head -5 crimes.csv` 
+command above you might have noticed that the last column contains data that is 
+a duplicate of the latitude and longitude files before it. This is reundant data 
+so we would like to be able to remove it. Let's work through slicing columns
+in the commad line. The first thing we will do is figure out the number of 
+columns that are in our CSV by counting the number of commas in the first
+row of the file. We can do that using the following command:
+
+`{{d['clean.sh|idio']['remove-unneeded-geolocation-1']}}`
+
+Next will use the cut command and the value we got from the previous command to 
+slice out everything but the last column. Not that we need to account for the 
+extra comma tat is in the actual "(latitude, longitude)" column when using 
+this commnad.
+
+`{{d['clean.sh|idio']['remove-unneeded-geolocation-2']}}`
+
+Now let's see how much weight we've shed!
+
+`{{d[clean.sh|idio']['remove-unneeded-geolocation-3']}}`.
