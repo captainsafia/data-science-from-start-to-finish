@@ -1,3 +1,5 @@
+<link href="https://gist.githubusercontent.com/tuzz/3331384/raw/94f2380c2b798fab2139fd0a8f478c4f2d642e3b/github.css" rel="stylesheet"></link>
+
 # Data Cleaning with Bash and Pandas
 
 Data cleaning is process that typically occurs after data retrieval and before
@@ -7,7 +9,7 @@ the fun part of the data science, but today we are going to change that percepti
 This workshop will guide you through the basic methodology of cleaning a data set
 and ensuring that you're process is through and complete.
 
-# What is the data set?
+## What is the data set?
 
 The data set we will be using for this class is a particularly robust data set 
 provided by the City of Chicago's Open Data Portal. The data set contains some
@@ -15,7 +17,7 @@ informaton about where specific crimes occur, whether or not they lead to an
 arrest, the time of the occurence, the location of the occurence, and some FBI
 and CPD codes that categorize the crime.
 
-# What are some questions that we are interested in asking about the data set?
+## What are some questions that we are interested in asking about the data set?
 
 1. What are the seasonal patterns associated with crime in the city?
 2. What neighborhoods suffer from the most criminal activity?
@@ -23,12 +25,12 @@ and CPD codes that categorize the crime.
 4. What crimes occur in neighborhoods that are considered more affluent versus
 those that occur in neighborhoods considered less affluent?
 
-# Setup
+## Setup
 
 1. Install Anaconda with Python 2.7.*.
 2. Download the huge crimes.csv file at http://bit.ly/1HtHxBh.
 
-# Shedding Some Weight
+## Shedding Some Weight
 
 If you've waited for the rather large `crimes.csv` file to download, you must 
 have noticed it's rather large size. We'll shortly begin shaping the file, 
@@ -59,7 +61,7 @@ will remove the headers of the file, but we'll be able to fix that later. The se
 part of the file prints out the size of our now smaller data file. The data might 
 not be big anymore but it's still valuable.
 
-# Losing A Limb
+## Losing A Limb
 
 If you were fairly observant when viewng the output of the `head -5 crimes.csv` 
 command above you might have noticed that the last column contains data that is 
@@ -82,7 +84,7 @@ Now let's see how much weight we've shed!
 
 `{{d['clean.sh|idio']['remove-unneeded-geolocation-3']}}`.
 
-# Going To The Zoo, Going to See the Pandas
+## Going To The Zoo, Going to See the Pandas
 
 Now that we have experminted with working with data in Bash for a litle bit, 
 let's start to explore data tools that can make our lives a little bit easier.
@@ -104,7 +106,7 @@ in a header since we sliced our header out of the file earlier.
 Now let's try expecting the first couple of rows of our data similar to what we 
 did in the Bash prompt earlier.
 
-`{{d['clean.py|idio']['inspect-data']}}
+`{{d['clean.py|idio']['inspect-data']}}`
 
 As we clean up our data some more, it'll be useful to be able to refer to the 
 data in the context of column names, so let's use Pandas to add back our column 
@@ -122,3 +124,8 @@ executing the following command will output the name of the column along with th
 number of rows where data items are missing for that column.
 
 `{{d['clean.py|idio']['whats-missing']}}`
+
+It appears that we've got several rows of data missing in a few of our columns.
+Let's go through each column and evalutate whether or not we should keep that 
+feature in our data set, omit only the rows which are missing, or investiage
+the missing values a bit further.
