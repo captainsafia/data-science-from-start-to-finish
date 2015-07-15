@@ -19,3 +19,6 @@ head -1 crimes_since_2010.cv | sed 's/[^,]//g' | wc -c
 cut -d, -f1-21 crimes_since_2010.csv > crimes_final.csv
 ### "remove-unneeded-geolocation-3"
 du -h crimes_final.csv
+
+### "open-ipython"
+conda run -- ipython

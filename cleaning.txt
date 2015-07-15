@@ -80,4 +80,23 @@ this commnad.
 
 Now let's see how much weight we've shed!
 
-`{{d[clean.sh|idio']['remove-unneeded-geolocation-3']}}`.
+`{{d['clean.sh|idio']['remove-unneeded-geolocation-3']}}`.
+
+# Going To The Zoo, Going to See the Pandas
+
+Now that we have experminted with working with data in Bash for a litle bit, 
+let's start to explore data tools that can make our lives a little bit easier.
+Namely, let's beging to wok with Pandas in Python. Pandas is a set of data 
+strcuturesa and functions that are designed to make working with data in Python
+easy and robust. 
+
+Execute the following command in Terminal, `{{d['clean.sh|idio']['open-ipython']}}`, 
+in order to open the iPython console. Let's go ahead and import Pandas using the
+following syntax:
+
+`{{d['clean.py|idio']['import']}}`
+
+Next, we will load our file using the following syntax. Note that we are not reading
+in a header since we sliced our header out of the file earlier.
+
+`{{d['clean.py|idio']['load']}}`
