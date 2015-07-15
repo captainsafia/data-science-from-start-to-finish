@@ -1,1 +1,5 @@
-cleaning.md|jinja|markdown
+cleaning.txt|jinja|markdown:
+    - clean.sh|asciisyn
+    - clean.sh|idio:
+        - idio : {ext : ".txt"}
+    
