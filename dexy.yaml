@@ -2,4 +2,6 @@ cleaning.txt|jinja|markdown:
     - clean.sh|asciisyn
     - clean.sh|idio:
         - idio : {ext : ".txt"}
+    - clean.py|idio:
+        - idio: {ext: ".txt"}
     

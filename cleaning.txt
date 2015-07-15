@@ -100,3 +100,25 @@ Next, we will load our file using the following syntax. Note that we are not rea
 in a header since we sliced our header out of the file earlier.
 
 `{{d['clean.py|idio']['load']}}`
+
+Now let's try expecting the first couple of rows of our data similar to what we 
+did in the Bash prompt earlier.
+
+`{{d['clean.py|idio']['inspect-data']}}
+
+As we clean up our data some more, it'll be useful to be able to refer to the 
+data in the context of column names, so let's use Pandas to add back our column 
+names as follows:
+
+`{{d['clean.py|idio']['append-header']}}`
+
+Let's also loop through and force any strings that we have in our data set to be
+lowercase for easier string comparisons later on.
+
+`{{d['clean.py|idio']['lowercase-columns']}}`
+
+Now let's check to see if any of our data is missing. Pandas makes this quite easy, 
+executing the following command will output the name of the column along with the 
+number of rows where data items are missing for that column.
+
+`{{d['clean.py|idio']['whats-missing']}}`
