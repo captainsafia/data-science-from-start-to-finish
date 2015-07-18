@@ -1,7 +1,7 @@
-cleaning.txt|jinja|markdown:
-    - clean.sh|asciisyn
-    - clean.sh|idio:
+cleaning/clean.txt|jinja|markdown:
+    - cleaning/clean.sh|asciisyn
+    - cleaning/clean.sh|idio:
         - idio : {ext : ".txt"}
-    - clean.py|idio:
+    - cleaning/clean.py|idio:
         - idio: {ext: ".txt"}
     

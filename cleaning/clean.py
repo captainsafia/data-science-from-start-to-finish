@@ -46,7 +46,5 @@ del crimes["district"]
 crimes.drop("ward", axis = 1, inplace = True)
 crimes = crime.drop("community_area", axis = 1)
 
-### "c
-
 ### "save-file"
 cimes.to_csv("crimes_cleaned.csv")
