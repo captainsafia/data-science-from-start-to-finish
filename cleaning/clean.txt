@@ -26,9 +26,10 @@ and CPD codes that categorize the crime.
 those that occur in neighborhoods considered less affluent?
 
 ## Setup
-
-1. Install Anaconda with Python 2.7.*.
-2. Download the huge crimes.csv file at http://bit.ly/1HtHxBh.
+1. Install Python 3 using [Anaconda](http://continuum.io/downloads).
+2. Go to Chicago's [Open Data Portal](https://data.cityofchicago.org).
+3. Browse to the *Crimes - 2001 to present* data set.
+4. Select *Export* then select *CSV* under *Download As*.
 
 ## Shedding Some Weight
 
@@ -60,6 +61,12 @@ in the file after the first occurence of the string "01/01/2010". Not that this
 will remove the headers of the file, but we'll be able to fix that later. The second
 part of the file prints out the size of our now smaller data file. The data might 
 not be big anymore but it's still valuable.
+
+#### Bonus Exercises
+1. Can you split the data set into two different sections, such as crimes
+reported before 2010 and those reported after? Do some research on 
+legislative changes with regard to the CPD and try exploring the data 
+set before and after those legislations took effect to observe the differences.
 
 ## Losing A Limb
 
@@ -129,3 +136,8 @@ It appears that we've got several rows of data missing in a few of our columns.
 Let's go through each column and evalutate whether or not we should keep that 
 feature in our data set, omit only the rows which are missing, or investiage
 the missing values a bit further.
+
+## What time is it?
+Pandas has a simple and robust technique for converting columns into Datetime
+objects. In this particular data set, our `date` column is read as a string.
+We can confirm this by looking into the `dtypes` attribute of the `date` column.
