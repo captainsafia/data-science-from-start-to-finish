@@ -7,8 +7,8 @@ The following tutorial is a Dexy documentation project containing a sequence of 
 * Visualizing Data in Python
 * Exploratory Data Analytics with Pandas — Part I
 * Exploratory Data Analytics with Pandas — Part II
-* Logistic Regression with Sci-kit Learn 
-* Clustering with Sci-kit Learn
+* Supervised Learning Techniques with Scikit-Learn
+* Unsupervised Learning Techniques with Scikit-learn
 * An Gentle Guide to the Data Science Community
 
 
