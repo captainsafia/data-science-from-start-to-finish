@@ -2,6 +2,7 @@
 
 The following tutorial is a Dexy documentation project containing a sequence of workshops designed to teach the fundamentals of data analytics using the Python stack.The series is divided into the following sections:
 
+* Python and Data Carpentry
 * Data Cleaning and Munging
 * Exploring Timeseries Data with Pandas
 * Visualizing Data in Python
