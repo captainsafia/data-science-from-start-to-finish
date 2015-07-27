@@ -1,0 +1,3 @@
+## Introduction
+
+The following course is designed to be delivered in 9-parts and provides a basic crash course into data analytics using the Python stack. In this part of the series, we will cover the install of our stack, basic Python, and the fundamentals of data science. It is expected that you have some background in programming before embarking on this course work.
