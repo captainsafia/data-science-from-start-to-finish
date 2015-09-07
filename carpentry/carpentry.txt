@@ -4,6 +4,18 @@ The following course is designed to be delivered in 9-parts and provides a basic
 
 ### Variables and Data Types
 
+##### Strings
+
+##### Integers
+
+##### Floats
+
+##### Lists
+
+##### Tuples
+
+##### Dictionaries
+
 ### Iteration in Python
 
 ### Functions in Python
@@ -17,3 +29,5 @@ The following course is designed to be delivered in 9-parts and provides a basic
 #### functools
 
 #### math and statistics
+
+### Why Data Science?
