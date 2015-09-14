@@ -19,7 +19,7 @@ Strings are treated as lists in Python meaning that you can index on strings.
 store_owner = store_name[:store_name.index("'")]
 ```
 
-Triple quoted string literals can contain line breaks!
+Triple quoted string literals can contain line breaks and tabs!
 
 ```
 store_slogan = """
@@ -34,6 +34,29 @@ String formatting can be done using Python.
 ```
 store_description = "{0} is owned by {1} and stands by their true and time-tested motto: {2}".format(store_name, store_owner, store_slogan)
 ```
+
+Strings can be concatenated using `+`.
+
+```
+store_manager = store_owner + ", Manager"
+```
+
+Strings can be repeated using `*`.
+
+```
+owner_says = (store_owner + " rocks! \n") * 5
+```
+
+Check whether or not a character or substring exists in a word using `in` and `not in`.
+
+```
+"Safia" in owner_says
+"Steve" not in owner_says
+"Fred" in owner_says
+'q' in owner_says
+'s' in owner_says
+```
+
 
 ##### Integers
 
