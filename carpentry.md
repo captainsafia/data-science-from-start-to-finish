@@ -64,9 +64,26 @@ Check whether or not a character or substring exists in a word using `in` and `n
 
 ##### Lists
 
+Let's create a list of the items that we have in our inventory.
+
+```
+invetory = ["Cheese", "Apple", "Grape", "Strawberry"]
+```
+
+
 ##### Tuples
 
 ##### Dictionaries
+
+Let's a create dictionary with information about a particular product in our inventory.
+
+```
+apple = {
+	"quantity": 50,
+	"price": 4.50,
+	"id": "8928411A"
+}
+```
 
 ### Iteration in Python
 
