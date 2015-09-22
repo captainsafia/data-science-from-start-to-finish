@@ -95,8 +95,14 @@ apple = {
 
 #### itertools
 
+Efficient iteration and looping — mix and match iterative tools.
+
 #### functools
 
+Tool for working with higher-order functions — functions that take in or return other functions.
+
 #### math and statistics
+
+Access to math functions defined in C standard and mathematical stats on numerical data.
 
 ### Why Data Science?
