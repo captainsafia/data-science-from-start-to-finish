@@ -133,6 +133,33 @@ apple = {
 }
 ```
 
+Get all the keys in a dictionary.
+
+```
+apple.keys()
+```
+
+Get all the values in a dictionary.
+
+```
+apple.values()
+```
+
+Get all the (key, value) pairs in a dictionary.
+
+```
+apple.items()
+```
+
+Expected a list? `dict_*` is a container object with efficient compairsons that can be iterated on multiple times (PEP 3106).
+
+Print out the values in a dictionary.
+
+```
+for name, value in apple.items():
+	print(name, ": ", value)
+```
+
 ### Iteration in Python
 
 ### Functions in Python
