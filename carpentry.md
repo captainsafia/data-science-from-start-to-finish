@@ -57,6 +57,54 @@ Check whether or not a character or substring exists in a word using `in` and `n
 's' in owner_says
 ```
 
+##### Booleans
+
+What are booleans?
+
+```
+type(True)
+type(False)
+```
+
+Analogous to 1s and 0s.
+
+```
+int(True)
+int(False)
+```
+
+`int`s can be converted to Booleans. Any `int` that is not 0, will be considered `True`.
+
+```
+bool(4)
+bool(0)
+bool(-3)
+```
+
+`and` checks to see if both conditions evaluate to True.
+
+```
+4 == 4
+3 == 4
+(4 == 4) and (3 == 4)
+(4 == 4) and (3 == 3)
+```
+
+`or` check is either condition is True.
+
+```
+4 == 4
+3 == 4
+(4 == 4) or (3 == 4)
+(5 == 4) or (3 == 2)
+```
+
+`not` negates a Boolean.
+
+```
+not (4 == 4)
+not (3 == 4)
+```
 
 ##### Integers
 
