@@ -108,7 +108,34 @@ not (3 == 4)
 
 ##### Integers
 
+The default "number" data type in Python represents a signed int.
+
+```
+num_apples = 250
+temp_in_iceland = -20
+```
+
+Use `int(x)` to convert `x` into a signed int.
+
+```
+int("3")
+int("-40")
+```
+
 ##### Floats
+
+floats represent floating point real values. Have a decimal seperating the fractional part from the integer part.
+
+```
+my_height = 5.3
+```
+
+Use `int(x)` to convert `x` into a signed int.
+
+```
+float("3.0")
+int("-40.0")
+```
 
 ##### Lists
 
