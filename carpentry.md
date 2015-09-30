@@ -267,9 +267,21 @@ for x in [1, 2, 3, 4, 5, 6, "c", 7, 8]:
 		print(x)
 ```
 
+### Branching
+
+`if-else` statements allow you to execute different blocks of code based on diffferent conditions.
+
+```
+x = 4
+if x % 2 == 0:
+	print(x)
+else:
+	print("I can't even!")
+```
+
 ### Functions in Python
 
-#### Classes and Objects
+### Classes and Objects
 
 ### The Standard Library
 
