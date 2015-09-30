@@ -231,6 +231,42 @@ for name, value in apple.items():
 
 ### Iteration in Python
 
+`for`-loop allows you to iterate over a list or generator.
+
+```
+for x in [1, 2, 3]:
+	print(x)
+```
+
+`while`-loop allows you to iterate while a particular condition is true.
+
+```
+x = 0
+while x < 4:
+	print("Cheese!")
+	x += 1
+```
+
+`break` allows you to prematurely exit a loop.
+
+```
+for x in [1, 2, 3, 4, 5, 6, "c", 7, 8]:
+	if x == "c":
+		break
+	else:
+		print(x)
+```
+
+`continue` allows you to pass over the current iteration.
+
+```
+for x in [1, 2, 3, 4, 5, 6, "c", 7, 8]:
+	if x == "c":
+		continue
+	else:
+		print(x)
+```
+
 ### Functions in Python
 
 #### Classes and Objects
