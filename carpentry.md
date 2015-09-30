@@ -142,9 +142,51 @@ int("-40.0")
 Let's create a list of the items that we have in our inventory.
 
 ```
-invetory = ["Cheese", "Apple", "Grape", "Strawberry"]
+inventory = ["Cheese", "Apple", "Grape", "Strawberry"]
 ```
 
+Get the 1st elemet of a list.
+
+```
+inventory[0]
+```
+
+Check if something is in a list.
+
+```
+"Cheese" in inventory
+"Milk" in inventory
+```
+
+Get length of list.
+
+```
+len(inventory)
+```
+
+Remove an item from a list.
+
+```
+del inventory[2]
+```
+
+Add an item to the list.
+
+```
+inventory.append("Milk")
+```
+
+Get the 2nd through 3rd elements of a list.
+
+```
+inventory[1:4]
+```
+
+Index from the back, where -1 is the last item.
+
+```
+inventory[-1]
+```
 
 ##### Tuples
 
