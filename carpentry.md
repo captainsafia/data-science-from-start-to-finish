@@ -176,7 +176,7 @@ Add an item to the list.
 inventory.append("Milk")
 ```
 
-Get the 2nd through 3rd elements of a list.
+Get the 2nd through 3rd elements of a list. The range selector is inclusive on the lower-bound and non-inclusive on the upper bound.
 
 ```
 inventory[1:4]
@@ -200,6 +200,16 @@ apple = {
 	"price": 4.50,
 	"id": "8928411A"
 }
+```
+
+Or alternatively.
+
+```
+apples = dict(
+	quantity=50,
+	price=4.50,
+	id="8928411A"
+)
 ```
 
 Get all the keys in a dictionary.
