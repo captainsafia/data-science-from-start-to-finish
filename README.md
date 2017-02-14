@@ -1,3 +1,3 @@
 # Data Science from Start to Finish
 
-The in-progress book is avaialble [here](https://www.penflip.com/captainsafia/data-science-from-start-to-finish/).
+I've removed the book from Penflip and will be working on writing it in private for now. Thanks for keeping track of the work and I look forward to launching it soon!
